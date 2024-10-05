@@ -12,4 +12,9 @@ public class HelloController {
     public String hello(){
         return "This is the testing endpoint!";
     }
+
+    @GetMapping("course/test")
+    public String courseTesting(){
+        return "This is the course testing page";
+    }
 }
